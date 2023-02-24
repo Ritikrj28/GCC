@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        nav{
+            padding: 20px 20px 40px 20px;
+            background-color: black;
+            color: aliceblue;
+        }
+        nav h4{
+            float: left;
+        }
+        nav ul{
+            list-style-type: none;
+            float: right;
+        }
+        nav li {
+            display: inline;
+        }
+        nav li a{
+            text-decoration: none;
+            color: aliceblue;
+            text-align: center;
+            padding: 14px 16px;
+        }
+        ul li a:hover:not(.Login){
+            background-color: red;
+            border-radius: 30px;
+        }
+        .Login{
+            background-color: rgb(0, 162, 255);
+            border-radius: 30px;
+            color: black;
+        }
+        .banner{
+            text-align: center;
+            padding: 40px;
+        }
+        .banner h4{
+                color:  rgb(0, 162, 255);
+                font-family: cursive;
+                margin-bottom: 10px;
+        }
+        .banner h1{
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                margin-bottom: 30px;
+        }
+        .banner p{
+            padding: 40px;
+        }
+        .banner button{
+            padding: 10px;
+            border-radius: 20px;
+            background-color:  rgb(0, 162, 255);
+            border: none;
+        }
+        .aboutparent{
+            width: 80%;
+            margin: auto;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            background-color: rgb(206, 229, 250);
+            padding: 10px;
+            height: 320px;
+            
+        }
+        .aboutparent .aboutchild1{
+            float: left;
+        }
+        .aboutparent .aboutchild1 img{
+            width: 550px;
+            height: 300px;
+        }
+        .aboutparent .aboutchild2{
+            padding: 20px 10px;
+            float: right;
+            width: 50%;
+        }
+        .aboutparent .aboutchild2 h6{
+            text-align: left;
+            border-left: 2px solid red;
+            margin-bottom: 5px;
+            padding: 10px;
+            color: red;
+            border-radius: 10px;
+        }
+        .aboutparent .aboutchild2 h1{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            margin: 10px 0px;
+        }
+        .aboutparent .aboutchild2 p{
+            text-align: justify;
+            padding: 3px;
+        }
+        .aboutparent .aboutchild2 a{
+            float: right;
+            margin: 5px;
+            text-decoration: none;
+            background-color: red;
+            padding: 10px;
+            color: aliceblue;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <h4>Gyan Computer Classes</h4>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Course</a></li>
+            <li><a href="">Service</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a class="Login" href="">Login</a></li>
+        </ul>
+    </nav>
+    <div class="banner">
+        <h4>Welcome To</h4>
+        <h1>Gyan Computer Classes</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti impedit culpa cumque. Ratione obcaecati veritatis libero ea autem molestias omnis ut quasi dolores placeat ab cum, sequi fuga, repellendus praesentium.
+        </p>
+        <button class="btn1">Get Start</button>
+        <button class="btn2">Contact Us</button>
+    </div>
+    <div class="aboutparent">
+        <div class="aboutchild1">
+            <img src="photo.jpg" alt="Ritik Raj" srcset="" >
+        </div>
+        <div class="aboutchild2">
+            <h6>About Us</h6>
+            <h1>Gyan Computer Classes, Bihar Sharif</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum deserunt ut atque facilis nostrum. Molestiae repellendus, et doloremque amet, eligendi praesentium fuga necessitatibus quae neque hic iste sint temporibus dicta!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit aliquid est eos molestias architecto consequatur quidem? Cumque voluptate nemo deserunt vero tempora. Voluptatum dolorum id numquam eligendi ad facilis neque!</p>
+            <a href="">Read More</a>
+        </div>
+    </div>
+</body>
+</html>
